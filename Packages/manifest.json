@@ -22,6 +22,7 @@
     "com.unity.xr.management": "4.2.1",
     "com.unity.xr.oculus": "3.2.2",
     "com.unity.xr.openxr": "1.6.0",
+    "io.colyseus.sdk": "0.15.4",
     "org.nuget.google.apis": "1.57.0",
     "org.nuget.google.apis.auth": "1.57.0",
     "org.nuget.google.apis.core": "https://github.com/icosa-mirror/org.nuget.google.apis.core.git#unity-newtonsoft",
@@ -61,7 +62,8 @@
       "name": "OpenUPM",
       "url": "https://package.openupm.com",
       "scopes": [
-        "com.atteneder"
+        "com.atteneder",
+        "io.colyseus"
       ]
     },
     {

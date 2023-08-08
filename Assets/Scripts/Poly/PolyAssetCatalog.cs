@@ -21,6 +21,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
+using UnityAsyncAwaitUtil;
 
 namespace TiltBrush
 {

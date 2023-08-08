@@ -13,6 +13,8 @@ using UnityAsyncAwaitUtil;
 // We could just add a generic GetAwaiter to YieldInstruction and CustomYieldInstruction
 // but instead we add specific methods to each derived class to allow for return values
 // that make the most sense for the specific instruction type
+namespace UnityAsyncAwaitUtil
+{
 public static class IEnumeratorAwaitExtensions
 {
     public static SimpleCoroutineAwaiter GetAwaiter(this WaitForSeconds instruction)
@@ -396,4 +398,5 @@ public static class IEnumeratorAwaitExtensions
             awaiter.Complete(instruction.asset, null);
         }
     }
+}
 }

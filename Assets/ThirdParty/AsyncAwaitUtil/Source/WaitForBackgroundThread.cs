@@ -5,10 +5,13 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using UnityEngine;
 
+namespace UnityAsyncAwaitUtil
+{
 public class WaitForBackgroundThread
 {
     public ConfiguredTaskAwaitable.ConfiguredTaskAwaiter GetAwaiter()
     {
         return Task.Run(() => {}).ConfigureAwait(false).GetAwaiter();
     }
+}
 }

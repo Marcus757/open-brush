@@ -1,6 +1,8 @@
 using System;
 using UnityEngine;
 
+namespace UnityAsyncAwaitUtil
+{
 // TODO: Remove the allocs here, use a static memory pool?
 public static class Awaiters
 {
@@ -42,4 +44,5 @@ public static class Awaiters
     {
         return new WaitWhile(predicate);
     }
+}
 }

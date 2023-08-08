@@ -17,6 +17,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Localization;
+using UnityAsyncAwaitUtil;
 
 namespace TiltBrush
 {

@@ -21,6 +21,7 @@ using Google.Apis.Services;
 using Google.Apis.PeopleService.v1;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityAsyncAwaitUtil;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif

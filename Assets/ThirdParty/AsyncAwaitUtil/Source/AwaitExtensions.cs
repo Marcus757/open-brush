@@ -5,6 +5,8 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using UnityEngine;
 
+namespace UnityAsyncAwaitUtil
+{
 public static class AwaitExtensions
 {
     public static TaskAwaiter<int> GetAwaiter(this Process process)
@@ -29,4 +31,5 @@ public static class AwaitExtensions
     {
         await task;
     }
+}
 }

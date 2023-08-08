@@ -7,6 +7,8 @@ using System.Runtime.ExceptionServices;
 using System.Threading.Tasks;
 using UnityEngine;
 
+namespace UnityAsyncAwaitUtil
+{
 public static class TaskExtensions
 {
     public static IEnumerator AsIEnumerator(this Task task)
@@ -36,4 +38,5 @@ public static class TaskExtensions
 
         yield return task.Result;
     }
+}
 }

@@ -30,6 +30,7 @@ using Google.Apis.Upload;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 using DriveData = Google.Apis.Drive.v3.Data;
+using UnityAsyncAwaitUtil;
 
 namespace TiltBrush
 {

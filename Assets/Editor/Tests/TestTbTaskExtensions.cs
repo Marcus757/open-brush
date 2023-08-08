@@ -22,6 +22,7 @@ using UnityEngine;
 using NUnit.Framework;
 using UnityEngine.TestTools;
 using static TiltBrush.AsyncTestUtils;
+using UnityAsyncAwaitUtil;
 
 namespace TiltBrush
 {

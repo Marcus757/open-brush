@@ -25,6 +25,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using CompressionLevel = System.IO.Compression.CompressionLevel;
 using JObject = Newtonsoft.Json.Linq.JObject;
+using UnityAsyncAwaitUtil;
 
 namespace TiltBrush
 {

@@ -23,6 +23,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityAsyncAwaitUtil;
 
 namespace TiltBrush
 {
